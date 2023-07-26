@@ -13,6 +13,7 @@ public class ConversionMoneda {
 	
 	/**
 	 * Valores de conversion de mi moneda a las Extranjeras.
+	 * 
 	 * @param valor
 	 */
 	
@@ -49,6 +50,7 @@ public class ConversionMoneda {
 	
 	/**
 	 * Valores de conversion de moneda Extranjera a mi moneda.
+	 * 
 	 * @param valor
 	 */
 	
