@@ -11,10 +11,13 @@ import javax.swing.*;
 
 public class ConversionMoneda {
 	
-	//Valores de conversion de mi moneda a las Extranjeras.
+	/**
+	 * Valores de conversion de mi moneda a las Extranjeras.
+	 * @param valor
+	 */
 	
 	public void PesosMexAdollar(double valor) {
-		double dollar = valor / 16.99;
+		double dollar = valor / 16.94;
 		dollar = (double)Math.round(dollar * 100d) /100;
 		JOptionPane.showMessageDialog(null, "Tienes: $ " + dollar + " Dolares");
 	}
@@ -44,9 +47,13 @@ public class ConversionMoneda {
 	}
 	
 	
-	//Valores de conversion de moneda Extranjera a mi moneda.
+	/**
+	 * Valores de conversion de moneda Extranjera a mi moneda.
+	 * @param valor
+	 */
+	
 		public void dollarApesoMex (double valor) {
-			double dollar = valor * 16.99;
+			double dollar = valor * 16.94;
 			dollar =(double)Math.round(dollar * 100d) / 100;
 			JOptionPane.showMessageDialog(null, "Equivalen a: $" + dollar + " Pesos Mexicanos");
 		}
